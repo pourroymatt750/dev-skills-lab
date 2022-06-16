@@ -7,6 +7,8 @@ const router = Router()
 router.get('/', skillsCtrl.index)
 //GET users new skills
 router.get('/new', skillsCtrl.new)
+//POST new skill
+
 
 export {
   router
